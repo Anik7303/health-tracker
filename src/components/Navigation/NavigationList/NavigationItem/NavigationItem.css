@@ -1,0 +1,23 @@
+.nav-list__item {
+    /* padding: 16px; */
+    margin: 0 5px;
+}
+
+.nav-list__item a {
+    text-decoration: none;
+    padding: 8px 16px;
+    color: black;
+    border: 4px solid transparent;
+    border-radius: 5px;
+}
+
+.nav-list__item a:hover,
+.nav-list__item a:active,
+.nav-list__item a.active {
+    color: blue;
+    border-bottom-color: blue;
+}
+
+.nav-list__item a:focus {
+    outline: none;
+}

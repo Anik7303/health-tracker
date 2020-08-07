@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import "./Footer.css";
+import "./Footer.scss";
 
-const footer = (props) => {
+const Footer = (props) => {
     return (
         <footer>
             <section>
@@ -19,4 +19,4 @@ const footer = (props) => {
     );
 };
 
-export default footer;
+export default Footer;

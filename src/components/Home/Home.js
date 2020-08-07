@@ -1,10 +1,10 @@
 import React, { Fragment } from "react";
 
-import "./Home.css";
+import "./Home.scss";
 import Hero from "./Hero/Hero";
 import About from "../About/About";
 
-const home = (props) => {
+const Home = (props) => {
     return (
         <Fragment>
             <Hero />
@@ -13,4 +13,4 @@ const home = (props) => {
     );
 };
 
-export default home;
+export default Home;

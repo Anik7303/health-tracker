@@ -1,10 +1,10 @@
 import React from "react";
 
-import "./Menubar.css";
+import "./Menubar.scss";
 import Logo from "../Logo/Logo";
 import NavigationList from "../NavigationList/NavigationList";
 
-const menubar = (props) => {
+const Menubar = (props) => {
     return (
         <header>
             {/* Website Logo */}
@@ -16,4 +16,4 @@ const menubar = (props) => {
     );
 };
 
-export default menubar;
+export default Menubar;

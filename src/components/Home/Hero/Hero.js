@@ -1,9 +1,9 @@
 import React from "react";
 
-import "./Hero.css";
+import "./Hero.scss";
 
-const hero = (props) => {
+const Hero = (props) => {
     return <h1>Hero Section</h1>;
 };
 
-export default hero;
+export default Hero;

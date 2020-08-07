@@ -1,9 +1,9 @@
 import React from "react";
 
-import "./Logo.css";
+import "./Logo.scss";
 
-const logo = (props) => {
+const Logo = (props) => {
     return <h1>Logo</h1>;
 };
 
-export default logo;
+export default Logo;

@@ -1,15 +1,15 @@
 import React, { Fragment } from "react";
 import { Switch, Route, Redirect } from "react-router-dom";
 
-import "./Layout.css";
+import "./Layout.scss";
 import Home from "../../components/Home/Home";
 import About from "../../components/About/About";
 import Menubar from "../../components/Navigation/Menubar/Menubar";
 import Sidebar from "../../components/Navigation/Sidebar/Sidebar";
 import Footer from "../../components/Footer/Footer";
 import TermsAndConditions from "../../components/TermsAndConditions/TermsAndConditions";
-import Signin from "../../components/Authentication/Signin/Signin";
-import Signup from "../../components/Authentication/Signup/Signup";
+import Signin from "../../containers/Authentication/Signin/Signin";
+import Signup from "../../containers/Authentication/Signup/Signup";
 
 const layout = (props) => {
     return (

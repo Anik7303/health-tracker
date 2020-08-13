@@ -1,6 +1,6 @@
 $default-color: black;
 $default-background: white;
-$primary-color: lightgreen;
+$primary-color: #4caf50;
 $primary-background: white;
 
 .signup-form {
@@ -20,7 +20,8 @@ $primary-background: white;
         font-size: 1rem;
 
         &:focus {
-            outline: none;
+            // outline: none;
+            outline: $primary-color;
         }
     }
 

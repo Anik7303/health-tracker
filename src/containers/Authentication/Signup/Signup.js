@@ -38,7 +38,7 @@ const Signup = (props) => {
                 name="username"
                 id="username"
                 value={username}
-                placeholder="username (must be 5 characters or more)"
+                placeholder="Username (must be 5 characters or more)"
                 onChange={inputHandler}
             />
             <input
@@ -47,7 +47,7 @@ const Signup = (props) => {
                 name="email"
                 id="email"
                 value={email}
-                placeholder="email address"
+                placeholder="Email address"
                 onChange={inputHandler}
             />
             <input
@@ -56,7 +56,7 @@ const Signup = (props) => {
                 name="password"
                 id="password"
                 value={password}
-                placeholder="password (must be 8 characters or more)"
+                placeholder="Password (must be 8 characters or more)"
                 onChange={inputHandler}
             />
             <input
@@ -65,7 +65,7 @@ const Signup = (props) => {
                 name="confirmPassword"
                 id="confirmPassword"
                 value={confirmPassword}
-                placeholder="password (must be 8 characters or more)"
+                placeholder="Password (must be 8 characters or more)"
                 onChange={inputHandler}
             />
             <button className="btn btn-primary">Sign up</button>
